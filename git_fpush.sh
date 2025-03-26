@@ -3,13 +3,12 @@
 git config advice.addIgnoredFile false
 
 # Configure user identity if not set
-if [ -z "$(git config user.email)" ]; then
-    git config --global user.email "whimsy@sylph.box"
-fi
-
-if [ -z "$(git config user.name)" ]; then
-    git config --global user.name "Whimsy"
-fi
+#if [ -z "$(git config user.email)" ]; then
+#    git config --global user.email "todo"
+#fi
+#if [ -z "$(git config user.name)" ]; then
+#    git config --global user.name "todo"
+#fi
 
 echo "---Initial Git Status:"
 git status
